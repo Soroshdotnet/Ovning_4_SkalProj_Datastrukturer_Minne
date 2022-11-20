@@ -13,8 +13,9 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
 
     3. Följande metoder (se bild nedan) genererar olika svar. Den första returnerar 3, den
     andra returnerar, varför?
-    Svar: Första metoden returnerar 
-
+    Svar 3.1: Första metoden skapar två platser i minnet varav metoden returnerar värdet 3 från variabel x i minnet x.
+    Svar 3.2: Objekt MyValue skrivs över av variabel y, därav returneras värde 4.
+    
 */
 {
     class Program
