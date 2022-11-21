@@ -95,14 +95,14 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
 
             switch (nav)
             {
-                case +:
+                case "+":
                     string listAdd = Console.ReadLine();
 
                     //list.Add(listAdd);
 
                     break;
 
-                case -:
+                case "-":
                     break;
 
                 default:
