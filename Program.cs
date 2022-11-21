@@ -103,6 +103,9 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
                     break;
 
                 case '-':
+
+                    theList.Remove (value);
+
                     break;
 
                 default:
