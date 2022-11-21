@@ -90,24 +90,28 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
 
             List<string> theList = new List<string>();
             string input = Console.ReadLine();
-            
+
             char nav = input[0];
             string value = input.Substring(1);
-
+           
             switch (nav)
             {
-                case "+":
-                    
-                    theList.Add(input);
+                case '+':
+
+                    theList.Add (value);
 
                     break;
 
-                case "-":
+                case '-':
                     break;
 
                 default:
                     break;
             }
+
+
+
+
 
             //List<string> list = new List<string>();
 
@@ -137,10 +141,10 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
             //switch (nav) {...}
         }
 
-            /// <summary>
-            /// Examines the datastructure Queue
-            /// </summary>
-            static void ExamineQueue()
+        /// <summary>
+        /// Examines the datastructure Queue
+        /// </summary>
+        static void ExamineQueue()
         {
             /*
              * Loop this method untill the user inputs something to exit to main menue.
