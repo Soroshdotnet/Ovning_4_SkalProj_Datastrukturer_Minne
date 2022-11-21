@@ -90,15 +90,15 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
 
             List<string> theList = new List<string>();
             string input = Console.ReadLine();
+            
             char nav = input[0];
             string value = input.Substring(1);
 
             switch (nav)
             {
                 case "+":
-                    string listAdd = Console.ReadLine();
-
-                    //list.Add(listAdd);
+                    
+                    theList.Add(input);
 
                     break;
 
