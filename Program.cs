@@ -88,18 +88,59 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
              * Below you can see some inspirational code to begin working.
             */
 
+            List<string> theList = new List<string>();
+            string input = Console.ReadLine();
+            char nav = input[0];
+            string value = input.Substring(1);
+
+            switch (nav)
+            {
+                case +:
+                    string listAdd = Console.ReadLine();
+
+                    //list.Add(listAdd);
+
+                    break;
+
+                case -:
+                    break;
+
+                default:
+                    break;
+            }
+
+            //List<string> list = new List<string>();
+
+            //string swithInput = Console.ReadLine();
+            //switch (swithInput)
+            //{
+            //    case "+":
+            //        Console.WriteLine("Skriv ett namn");
+            //        string listAdd = Console.ReadLine();
+
+            //        list.Add(listAdd);
+
+            //        break;
+
+            //    case "-":
+            //        break;
+
+            //    default:
+            //        break;
+            //}
+
             //List<string> theList = new List<string>();
             //string input = Console.ReadLine();
             //char nav = input[0];
             //string value = input.substring(1);
 
-            //switch(nav){...}
+            //switch (nav) {...}
         }
 
-        /// <summary>
-        /// Examines the datastructure Queue
-        /// </summary>
-        static void ExamineQueue()
+            /// <summary>
+            /// Examines the datastructure Queue
+            /// </summary>
+            static void ExamineQueue()
         {
             /*
              * Loop this method untill the user inputs something to exit to main menue.
