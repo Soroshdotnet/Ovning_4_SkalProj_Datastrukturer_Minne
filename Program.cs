@@ -109,32 +109,10 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
                     break;
 
                 default:
+                    Console.WriteLine("use only + or -");
                     break;
             }
 
-
-
-
-
-            //List<string> list = new List<string>();
-
-            //string swithInput = Console.ReadLine();
-            //switch (swithInput)
-            //{
-            //    case "+":
-            //        Console.WriteLine("Skriv ett namn");
-            //        string listAdd = Console.ReadLine();
-
-            //        list.Add(listAdd);
-
-            //        break;
-
-            //    case "-":
-            //        break;
-
-            //    default:
-            //        break;
-            //}
 
             //List<string> theList = new List<string>();
             //string input = Console.ReadLine();
