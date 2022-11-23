@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Ovning_4_SkalProj_Datastrukturer_Minnen
 
@@ -88,30 +90,60 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
              * Below you can see some inspirational code to begin working.
             */
 
+
+            /* 
+             
+            1.Skriv klart implementationen av ExamineList-metoden så att undersökningen blir
+              genomförbar.
+            - Klart
+            
+            2.När ökar listans kapacitet ? (Alltså den underliggande arrayens storlek)
+            - Listans kapacitet ökar när man tilldelar värde
+            
+            3.Med hur mycket ökar kapaciteten?
+            - Kapaciteten dubblas, ökar med 4 > 0, 4, 8, 16, 32, 64 osv
+            
+            4.Varför ökar inte listans kapacitet i samma takt som element läggs till ?
+            -
+
+            5.Minskar kapaciteten när element tas bort ur listan?
+            - Ja, kapaciteten minskar (?)
+
+            6.När är det då fördelaktigt att använda en egendefinierad array istället för en lista?
+            - Det blir minneseffektivt, man sparar processor, men det kräver att man vet exakt hur många element man ska ha
+
+            */
+
+
             List<string> theList = new List<string>();
             string input = Console.ReadLine();
 
             char nav = input[0];
             string value = input.Substring(1);
            
+            
+           
+
             switch (nav)
             {
                 case '+':
 
                     theList.Add (value);
-
+                    Console.WriteLine(theList.Capacity);
                     break;
 
                 case '-':
 
                     theList.Remove (value);
-
+                    Console.WriteLine(theList.Capacity);
                     break;
 
                 default:
                     Console.WriteLine("use only + or -");
                     break;
             }
+
+
 
 
             //List<string> theList = new List<string>();
@@ -132,6 +164,29 @@ namespace Ovning_4_SkalProj_Datastrukturer_Minnen
              * Create a switch with cases to enqueue items or dequeue items
              * Make sure to look at the queue after Enqueueing and Dequeueing to see how it behaves
             */
+
+            Queue<string> theQueue = new Queue<string>();
+           
+            //string theQueue = Console.ReadLine();
+
+            char input2 = Console.ReadLine();
+
+            do
+            {
+                switch (input2)
+                {
+                    case '+':
+                     break;
+
+                    case '-':
+                        break;
+                
+                    default:
+                        break;
+                }
+
+            } while (true);
+
         }
 
         /// <summary>
